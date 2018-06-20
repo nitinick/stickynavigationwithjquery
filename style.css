@@ -21,11 +21,9 @@ nav.black{
 background:rgba(0,0,0,0.8);
 height: 100px;
 padding:10px 100px;
-
-
 }
 
-nav.logo{
+nav .logo{
   padding:22px 20px;
   height: 80px;
   float: left;
@@ -34,7 +32,7 @@ nav.logo{
 }
 
 nav.black.logo{
-  color:#fff;
+  color:#FFDF00;
 }
 
 nav ul{
@@ -71,10 +69,23 @@ nav ul li a.active{
 
 
 }
-section.sec{
+section.sec1{
   width:100%;
   height: 100vh;
-  background: url('27.jpg');
+  background-image: url("https://images.wallpaperscraft.com/image/girl_mountains_backpack_114178_5458x3705.jpg");
   background-size: cover;
   background-position: center;
+}
+
+
+.content{
+  margin-top:80px;
+}
+
+.content p{
+  width:900px;
+  margin:30px auto;
+  text-align: justify;
+  font-size:20px;
+  line-height:30px;
 }
